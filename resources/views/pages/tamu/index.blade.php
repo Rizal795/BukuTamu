@@ -59,7 +59,6 @@
                         <td>{{ $item->data }}</td>
                       <td>
                         <div class="btn-group">
-                            <a href="http://" class="btn btn-primary btn-sm">Lihat</a>
                             <a href="{{ route('tamu.edit', $item->id )}}" class="btn btn-warning btn-sm">Edit</a>
                             {{-- <a href="{{ route('destroy', $item->id )}}" class="btn btn-warning btn-sm">Delete</a> --}}
                             <a href="javascript:void(0)" id="delete" data-url="{{ route('tamu.destroy', $item->id)}}" class="btn btn-danger btn-sm">Delete</a>

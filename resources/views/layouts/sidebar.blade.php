@@ -39,7 +39,6 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
-                <i class="right fas fa-angle-left"></i>
               </p>
             </a>
           </li>
@@ -48,7 +47,14 @@
               <i class="nav-icon fas fa-edit"></i>
               <p>
                 Tamu
-                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/tamu" class="nav-link {{ Request::is('tamu/*', 'tamu') ? 'active' : ''}}">
+              <i class="nav-icon far fa-plus-square"></i>
+              <p>
+                Register
               </p>
             </a>
           </li>
